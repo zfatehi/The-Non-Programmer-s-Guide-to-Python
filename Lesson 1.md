@@ -15,7 +15,7 @@ The print function lets me print anything I want, a variable, a string, or a str
 Monty Python and the Holy Grail
 ```
 
-You can use the length function len() to get the length of a string. But:
+You can use the length function len() to get the length of a string. 
 
 ```
 >>> len(movies[0]+movies[1])
