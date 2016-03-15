@@ -18,9 +18,9 @@ Monty Python and the Holy Grail
 You can use the length function len() to get the length of a string. 
 
 ```
->>> len(movies[0]+movies[1])
+>>> len(movies[0]+movies[2])
 42
->>> len(movies[0])+len(movies[1])
+>>> len(movies[0])+len(movies[2])
 42
 ```
 (Before we go on, can we just talk about how the length of the "Life of Pi" and "Hitchhiker's Guide to the Galaxy" strings together is 42? Coincidence? I think not.)
