@@ -27,7 +27,7 @@ You can use the length function len() to get the length of a string.
 
 Okay, back to it:
 What is the difference between these two?
-The first one creates a new string by combining the two in the positions 0 and 1 and takes the length, and the second one takes the length of both individually and adds them.
+The first one creates a new string by combining the two in the positions 0 and 2 and takes the length, and the second one takes the length of both individually and adds them.
 You get the same result.
 
 The insert function allows me to insert a new string (item) at the specified location:
