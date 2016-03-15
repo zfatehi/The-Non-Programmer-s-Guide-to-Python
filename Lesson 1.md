@@ -1,6 +1,6 @@
 # Lesson 1
 
-First, we have to create a variable to work with, a box with stuff in numbered compartments inside that we can do things with.
+First, we have to create a variable to work with, which you can think of as a box divided into in numbered compartments with stuff inside that we can do things with (STUFF AND THINGS).
 
 Here I am creating the variable movies, with a list of movies in it:
 
