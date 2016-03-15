@@ -23,7 +23,7 @@ You can use the length function len() to get the length of a string.
 >>> len(movies[0])+len(movies[1])
 42
 ```
-(Before we go on, can we just talk about how the length of the "Life of Pi" and "Monty Python and the Holy Grail" strings together is 42? Coincidence? I think not.)
+(Before we go on, can we just talk about how the length of the "Life of Pi" and "Hitchhiker's Guide to the Galaxy" strings together is 42? Coincidence? I think not.)
 
 Okay, back to it:
 What is the difference between these two?
