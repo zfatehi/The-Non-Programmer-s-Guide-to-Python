@@ -23,12 +23,12 @@ I can use another function, the length function len() to get the length of a str
 >>> len(movies[0])+len(movies[2])
 42
 ```
-(Before we go on, can we just talk about how the length of the "Life of Pi" and "Hitchhiker's Guide to the Galaxy" strings together is 42? Coincidence? I think not.)
 
-Okay, back to it:
 What is the difference between these two?
 The first one creates a new string by combining the two in the positions 0 and 2 and takes the length, and the second one takes the length of both individually and adds them.
 You get the same result.
+
+(Before we go on, can we just talk about how the length of the "Life of Pi" and "Hitchhiker's Guide to the Galaxy" strings together is 42? Coincidence? I think not.)
 
 The insert function allows me to insert a new string (item) at the specified location:
 
