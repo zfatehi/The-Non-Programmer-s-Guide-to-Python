@@ -41,32 +41,32 @@ The remove function allows me to remove the first occurrence of the specified st
 ```
 >>> movies.remove("Life of Pi")
 >>> print(movies)
-['Monty Python and the Holy Grail', "Hitchhiker's Guide to the Galaxy"]
+['Monty Python and the Holy Grail', 'Lord of the Rings', "Hitchhiker's Guide to the Galaxy"]
 ```
 
 The pop function allows me to remove a string by specifying a location. If no location is specified, example: movies.pop() the last string is popped. 
 
 ```
->>> movies.pop(2)
+>>> movies.pop(1)
 'Lord of the Rings'
 >>> print(movies)
-['Life of Pi', 'Monty Python and the Holy Grail', "Hitchhiker's Guide to the Galaxy"]
+['Monty Python and the Holy Grail', "Hitchhiker's Guide to the Galaxy"]
 ```
 
-The append function allows me to do the same thing as:
+Another cool function is the append function; it allows me to do the same thing as:
 
 ```
 >>> movies.insert(len(movies),"Nemo")
 >>> print(movies)
-['Life of Pi', 'Monty Python and the Holy Grail', "Hitchhiker's Guide to the Galaxy", 'Nemo']
+['Monty Python and the Holy Grail', "Hitchhiker's Guide to the Galaxy", 'Nemo']
 ```
-
+Which is basically letting me add a new string onto the end of my list.
 See?
 
 ```
 >>> movies.append("Nemo")
 >>> print(movies)
-['Life of Pi', 'Monty Python and the Holy Grail', "Hitchhiker's Guide to the Galaxy", 'Nemo’]
+['Monty Python and the Holy Grail', "Hitchhiker's Guide to the Galaxy", 'Nemo’]
 ```
 
 Say you want to switch the positions of the last two strings on the lists:
@@ -74,21 +74,21 @@ Say you want to switch the positions of the last two strings on the lists:
 ```
 >>> movies.append(movies.pop(1))
 >>> print(movies)
-['Life of Pi', "Hitchhiker's Guide to the Galaxy", 'Monty Python and the Holy Grail']
+['Monty Python and the Holy Grail', 'Nemo', "Hitchhiker's Guide to the Galaxy"]
 ```
 
 There you go! Programmers being lazy!
 
-But now you say, I don’t want to put that title at the end. I want to put it in the beginning!
+But now say I don’t want to put that title at the end. I want to put it in the beginning!
 Let’s try again:
 
 ```
 >>> movies.insert(0, movies.pop(2))
 >>> print(movies)
-['Monty Python and the Holy Grail', 'Life of Pi', "Hitchhiker's Guide to the Galaxy"]
+['Nemo', 'Monty Python and the Holy Grail', "Hitchhiker's Guide to the Galaxy"]
 ```
 
-And we’ve done it!
+And we’ve done it! In a few deft keystrokes, we've ended up with a completely different list!
 
 
 
