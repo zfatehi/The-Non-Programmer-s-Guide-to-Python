@@ -24,7 +24,20 @@ Life of Pi
 Hitchhiker's Guide to the Galaxy
 2005
 ```
-You may be thinking, why is that so special? It’s just printing my list of movies, just not all in the same line. Trust me, I was thinking the same thing. 
+You may be thinking, why is that so special? It’s just printing my list of movies, just not all in the same line. Trust me, I was thinking the same thing. Okay, so let's see what we can do with a for loop which includes a little function called `enumerate` which numbers the items in our list:
+
+```
+>>> for each_item, number in enumerate(movies):
+	print (each_item, number)
+
+0 Monty Python and the Holy Grail
+1 1975
+2 Life of Pi
+3 2012
+4 Hitchhiker's Guide to the Galaxy
+5 2005
+```
+
 
 
 
