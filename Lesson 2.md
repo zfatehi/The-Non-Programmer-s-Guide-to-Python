@@ -23,7 +23,7 @@ Life of Pi
 2012
 Hitchhiker's Guide to the Galaxy
 2005
-``
+```
 You may be thinking, why is that so special? It’s just printing my list of movies, just not all in the same line. Trust me, I was thinking the same thing. 
 
 
