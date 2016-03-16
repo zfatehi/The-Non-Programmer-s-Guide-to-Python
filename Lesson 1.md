@@ -79,7 +79,7 @@ Say you want to switch the positions of the last two strings on the lists:
 ['Monty Python and the Holy Grail', 'Nemo', "Hitchhiker's Guide to the Galaxy"]
 ```
 
-There you go! Programmers being lazy!
+All I did was popped the string in position 1 (Hitchhiker's Guide to the Galaxy) and appended it to the end of the list. There you go! Programmers being lazy!
 
 But now say I don’t want to put that title at the end. I want to put it in the beginning!
 Let’s try again:
