@@ -30,8 +30,8 @@ You can "translate" a for loop into English to make it easier to understand; for
 You may be thinking, why is that so special? It’s just printing my list of movies, just not all in the same line. Trust me, I was thinking the same thing. Okay, so let's see what we can do with a `for` loop which includes a little function called `enumerate` which numbers the items in our list:
 
 ```
->>> for each_item, number in enumerate(movies):
-	print (each_item, number)
+>>> for each_item, position in enumerate(movies):
+	print (each_item, position)
 
 0 Monty Python and the Holy Grail
 1 1975
