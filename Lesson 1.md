@@ -38,7 +38,7 @@ The insert function allows me to insert a new string (item) at the specified loc
 ['Life of Pi', 'Monty Python and the Holy Grail', 'Lord of the Rings', "Hitchhiker's Guide to the Galaxy"]
 ```
 
-The remove function allows me to remove the first occurrence of the specified string (item) from wherever it is, but you can only add one at a time:
+The remove function allows me to remove the first occurrence of the specified string (item) from wherever it is, but you can only remove one at a time:
 
 ```
 >>> movies.remove("Life of Pi")
