@@ -37,7 +37,7 @@ You may be thinking, why is that so special? It’s just printing my list of mov
 4 Hitchhiker's Guide to the Galaxy
 5 2005
 ```
-
+See what this gives me? My list, with position numbers built in so I can do things I learned earlier, like inserting or popping items; except I don't need to figure out their position numbers before I go ahead! Super convenient, and this is only an example of one of the cool things you can do with a for loop.
 
 
 
