@@ -25,7 +25,7 @@ Hitchhiker's Guide to the Galaxy
 2005
 ```
 You can "translate" a for loop into English to make it easier to understand; for example, the for loop above would read:
-"For the list movies, print each item until the list is over." In this for loop, I created the variable `each_item` and assigned it to hold each item in my movies list, one by one, so that every time one item in the list is printed, `each_item` gets reassigned to the next item in the list and that one gets printed. This happens again and again until the end of the list is reached.
+"For the list movies, print each item until the list is over." In this `for` loop, I created the variable `each_item` and assigned it to hold each item in my movies list, one by one, so that every time one item in the list is printed, `each_item` gets reassigned to the next item in the list and that one gets printed. This happens again and again until the end of the list is reached.
 
 You may be thinking, why is that so special? It’s just printing my list of movies, just not all in the same line. Trust me, I was thinking the same thing. Okay, so let's see what we can do with a `for` loop which includes a little function called `enumerate` which numbers the items in our list:
 
@@ -40,7 +40,7 @@ You may be thinking, why is that so special? It’s just printing my list of mov
 4 Hitchhiker's Guide to the Galaxy
 5 2005
 ```
-See what this gives me? My list, with position numbers built in so I can do things I learned earlier, like inserting or popping items; except I don't need to figure out their position numbers before I go ahead! Super convenient, and this is only an example of one of the cool things you can do with a for loop.
+See what this gives me? My list, with position numbers built in so I can do things I learned earlier, like inserting or popping items; except I don't need to figure out their position numbers before I go ahead! Super convenient, and this is only an example of one of the cool things you can do with a `for` loop.
 
 
 
