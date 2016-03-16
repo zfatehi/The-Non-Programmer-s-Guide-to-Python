@@ -8,7 +8,7 @@ Here I am creating the variable movies, with a list of movies in it:
 >>> movies = ["Life of Pi", "Monty Python and the Holy Grail", "Hitchhiker's Guide to the Galaxy"]
 ```
 
-The print function lets me print anything I want, from a variable, to a string(a bunch of characters enclosed in quotation marks), to a string at a specific location, and it starts the numbering from 0:
+The print function lets me print anything I want, from a variable, to a string (a bunch of characters enclosed in quotation marks), to a string at a specific location, and it starts the numbering from 0:
 
 ```
 >>> print (movies[1])
