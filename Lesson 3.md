@@ -14,4 +14,18 @@ Hitchhiker's Guide to the Galaxy
 2005
 ```
 
-Now, we can create a `while` loop to do the same thing
+Now, we can create a `while` loop to do the same thing as this `for` loop above:
+```
+>>> count = 0
+>>> while count < len(movies):
+	print(movies[count])
+	count = count+1
+
+	
+Monty Python and the Holy Grail
+1975,Life of Pi
+2012,
+Hitchhiker's Guide to the Galaxy
+2005
+```
+This while loop is saying something a little different than our previous `for` loop; It says that "While the position count has not reached the end of the list, or the last postion in the variable 'box' we've called movies, keep printing the items in the list." In this loop, I have to define the count before the loop. Another important thing to note is like in the `for` loop, everytime an iteration (or repitition) of the loop is run, the variable `count` that I created is reassigned to the next value in the list.
