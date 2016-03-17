@@ -25,8 +25,9 @@ Now, we can create a `while` loop to do the same thing as this `for` loop above:
 
 	
 Monty Python and the Holy Grail
-1975,Life of Pi
-2012,
+1975
+Life of Pi
+2012
 Hitchhiker's Guide to the Galaxy
 2005
 ```
