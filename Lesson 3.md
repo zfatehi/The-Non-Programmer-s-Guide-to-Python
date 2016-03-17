@@ -23,7 +23,6 @@ Now, we can create a `while` loop to do the same thing as this `for` loop above:
 	print(movies[count])
 	count = count+1
 
-	
 Monty Python and the Holy Grail
 1975
 Life of Pi
