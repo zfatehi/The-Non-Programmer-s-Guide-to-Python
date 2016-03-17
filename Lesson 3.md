@@ -32,4 +32,4 @@ Hitchhiker's Guide to the Galaxy
 ```
 This while loop is saying something a little different than our previous `for` loop; It says that "While the position count has not reached the end of the list, or the last postion in the variable 'box' we've called movies, keep printing the items in the list." In this loop, I have to define the count before the loop. Another important thing to note is like in the `for` loop, everytime an iteration (or repitition) of the loop is run, the variable `count` that I created is reassigned to the next position in the list (which is why we have set `count = count+1` for each iteration).
 
-So, all it's doing is the same thing our `for` loop did from before, it's way more complicated, with way more room for error. So why use it at all? Seems pointless. However, after some research, 
+So, all it's doing is the same thing our `for` loop did from before, it's way more complicated, with way more room for error. So why use it at all? Seems pointless. However, after some research, I found that in this case, it only _happens_ to be the same in this case.
