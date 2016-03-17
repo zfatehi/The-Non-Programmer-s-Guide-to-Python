@@ -5,3 +5,4 @@ Hi everyone. I’m Zahra, just a girl who’s wanted to be able to code for ages
 Links to the lessons:
 [Lesson 1](Lesson%201.md)
 [Lesson 2](Lesson%202.md)
+[Lesson 3](Lesson%203.md)
