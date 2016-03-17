@@ -11,7 +11,7 @@ Now that we have a list of movies, it’s time to think about what we can do wit
 ```
 Cool! (Or you can add the numbers to your list manually, which is a drag unless it is a short list like this).
 
-Now I’m going to move on to loops, which are exactly what they sound like; they perform a function over and over in a loop until the condition, which is specified, comes true. We’ll start with the `for` loop, using it to print our list:
+Now I’m going to move on to loops, which are exactly what they sound like; they perform a function over and over in a loop until a certain point (I'll get into the specifics later, because it varies from loop to loop). We’ll start with the `for` loop, using it to print our list:
 
 ```
 >>> for each_item in movies:
