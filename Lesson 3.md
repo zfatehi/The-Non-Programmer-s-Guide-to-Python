@@ -1,6 +1,6 @@
 # Lesson 3
 
-Now that I've generally gone through how a `for` loop works, I can take a look at other loops and how they work. A `while` loop, which can take the place of a `for` loop, is much more specific than a while loop but can be made to the same thing.
+Now that I've generally gone through how a `for` loop works, I can take a look at other loops and how they work. A `while` loop, which can take the place of a `for` loop, is much more specific than the 'for' loop but can be made to the same thing.
 
 From the last lesson, we created the `for` loop below to print out our list of movies:
 
